@@ -1,0 +1,6 @@
+{
+  "name": "LocalAI Web",
+  "description": "AI-powered website builder for small local businesses worldwide. Create a professional, mobile-ready business website in minutes without coding.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
