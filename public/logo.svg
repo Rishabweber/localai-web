@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="100%" height="100%">
+  <defs>
+    <linearGradient id="primaryBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e70eb" />
+      <stop offset="50%" stop-color="#0b57d0" />
+      <stop offset="100%" stop-color="#083884" />
+    </linearGradient>
+    <linearGradient id="lightBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#388bfd" />
+      <stop offset="100%" stop-color="#0b57d0" />
+    </linearGradient>
+    <linearGradient id="pinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1264c5" />
+      <stop offset="60%" stop-color="#084298" />
+      <stop offset="100%" stop-color="#052c65" />
+    </linearGradient>
+    <radialGradient id="nodeGlow" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="40%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#0f2b5c" />
+    </radialGradient>
+    <filter id="subtleGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0b57d0" flood-opacity="0.2" />
+    </filter>
+  </defs>
+
+  <g id="logo-graphic" transform="translate(500, 230)" filter="url(#subtleGlow)">
+    <!-- Outer Network Ring -->
+    <circle cx="0" cy="0" r="160" fill="none" stroke="url(#primaryBlue)" stroke-width="6" />
+
+    <!-- Circuit Interconnections to Rim -->
+    <!-- Top to bottom connections -->
+    <path d="M 0,-160 L 0,-105 L -35,-70 L -35,-20" fill="none" stroke="url(#primaryBlue)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 0,-160 L 40,-120 L 75,-120 L 75,-70" fill="none" stroke="url(#primaryBlue)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Top Right diagonal traces -->
+    <path d="M 105,-120 L 55,-70 L 55,-30" fill="none" stroke="url(#primaryBlue)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 105,-120 L 155,-40" fill="none" stroke="url(#primaryBlue)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 155,-40 L 95,20 L 95,65" fill="none" stroke="url(#primaryBlue)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 155,-40 L 70,-40 L 70,-10" fill="none" stroke="url(#primaryBlue)" stroke-width="3.5" stroke-linecap="round" />
+    
+    <!-- Right side circuit traces -->
+    <path d="M 160,0 L 115,0 L 80,35 L 80,85" fill="none" stroke="url(#primaryBlue)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 140,80 L 105,45 L 45,45" fill="none" stroke="url(#primaryBlue)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 140,80 L 80,140" fill="none" stroke="url(#primaryBlue)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 80,140 L 0,160" fill="none" stroke="url(#primaryBlue)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Bottom circuit traces -->
+    <path d="M 0,160 L 0,95" fill="none" stroke="url(#primaryBlue)" stroke-width="4.5" stroke-linecap="round" />
+    <path d="M 0,160 L -75,140 L -130,95" fill="none" stroke="url(#primaryBlue)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M -75,140 L -30,95 L 0,95" fill="none" stroke="url(#primaryBlue)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Left side circuit traces -->
+    <path d="M -130,95 L -85,50 L -85,15" fill="none" stroke="url(#primaryBlue)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M -160,0 L -110,-50 L -110,-95" fill="none" stroke="url(#primaryBlue)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M -160,0 L -85,0" fill="none" stroke="url(#primaryBlue)" stroke-width="4" stroke-linecap="round" />
+    <path d="M -115,-110 L -65,-60 L -25,-60" fill="none" stroke="url(#primaryBlue)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M -115,-110 L 0,-160" fill="none" stroke="url(#primaryBlue)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Stylized 'W' (Left Wing) -->
+    <path d="M -120,-60 L -90,40 L -60,-35 L -35,35" fill="none" stroke="url(#primaryBlue)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Stylized 'AI' (Right Wing) -->
+    <!-- 'A' Structure -->
+    <path d="M 35,35 L 60,-45 L 85,35" fill="none" stroke="url(#primaryBlue)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 46,5 L 74,5" fill="none" stroke="url(#primaryBlue)" stroke-width="6" stroke-linecap="round" />
+    <path d="M 60,-45 L 85,-95 L 115,-95" fill="none" stroke="url(#primaryBlue)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- 'I' Structure -->
+    <path d="M 108,-45 L 108,35" fill="none" stroke="url(#primaryBlue)" stroke-width="11" stroke-linecap="round" />
+
+    <!-- Additional Microchip Tracks inside -->
+    <path d="M 30,-115 L 30,-80 L 15,-65" fill="none" stroke="url(#primaryBlue)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 45,-115 L 45,-90 L 70,-90" fill="none" stroke="url(#primaryBlue)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M -15,100 L -15,125 L -45,125" fill="none" stroke="url(#primaryBlue)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 15,100 L 15,125 L 45,125" fill="none" stroke="url(#primaryBlue)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Prominent Central Location Pin Marker (Local Business) -->
+    <g transform="translate(0, -5)">
+      <!-- Pin Body -->
+      <path d="M 0,-40 C -26,-40 -40,-22 -40,4 C -40,28 -15,55 0,72 C 15,55 40,28 40,4 C 40,-22 26,-40 0,-40 Z" 
+            fill="url(#pinGrad)" stroke="#ffffff" stroke-width="3" />
+      <!-- Pin Center Dot (Hole) -->
+      <circle cx="0" cy="4" r="12" fill="#ffffff" />
+    </g>
+
+    <!-- Perimeter Circuit Nodes (Dots) -->
+    <circle cx="0" cy="-160" r="10" fill="url(#nodeGlow)" stroke="#ffffff" stroke-width="2" />
+    <circle cx="105" cy="-120" r="9" fill="url(#nodeGlow)" stroke="#ffffff" stroke-width="2" />
+    <circle cx="155" cy="-40" r="10.5" fill="url(#nodeGlow)" stroke="#ffffff" stroke-width="2" />
+    <circle cx="140" cy="80" r="9.5" fill="url(#nodeGlow)" stroke="#ffffff" stroke-width="2" />
+    <circle cx="80" cy="140" r="9" fill="url(#nodeGlow)" stroke="#ffffff" stroke-width="2" />
+    <circle cx="0" cy="160" r="10" fill="url(#nodeGlow)" stroke="#ffffff" stroke-width="2" />
+    <circle cx="-75" cy="140" r="9" fill="url(#nodeGlow)" stroke="#ffffff" stroke-width="2" />
+    <circle cx="-130" cy="95" r="9.5" fill="url(#nodeGlow)" stroke="#ffffff" stroke-width="2" />
+    <circle cx="-160" cy="0" r="10.5" fill="url(#nodeGlow)" stroke="#ffffff" stroke-width="2" />
+    <circle cx="-115" cy="-110" r="9" fill="url(#nodeGlow)" stroke="#ffffff" stroke-width="2" />
+
+    <!-- Internal Terminal Circuit Nodes -->
+    <circle cx="-120" cy="-60" r="6" fill="url(#nodeGlow)" stroke="#ffffff" stroke-width="1.5" />
+    <circle cx="-60" cy="-35" r="5.5" fill="url(#nodeGlow)" stroke="#ffffff" stroke-width="1.5" />
+    <circle cx="60" cy="-45" r="6" fill="url(#nodeGlow)" stroke="#ffffff" stroke-width="1.5" />
+    <circle cx="115" cy="-95" r="5.5" fill="url(#nodeGlow)" stroke="#ffffff" stroke-width="1.5" />
+    <circle cx="108" cy="-45" r="5.5" fill="url(#nodeGlow)" stroke="#ffffff" stroke-width="1.5" />
+    <circle cx="108" cy="35" r="5.5" fill="url(#nodeGlow)" stroke="#ffffff" stroke-width="1.5" />
+    <circle cx="85" cy="35" r="5.5" fill="url(#nodeGlow)" stroke="#ffffff" stroke-width="1.5" />
+    <circle cx="-35" cy="35" r="5.5" fill="url(#nodeGlow)" stroke="#ffffff" stroke-width="1.5" />
+    <circle cx="35" cy="35" r="5.5" fill="url(#nodeGlow)" stroke="#ffffff" stroke-width="1.5" />
+    <circle cx="95" cy="65" r="5" fill="url(#nodeGlow)" stroke="#ffffff" stroke-width="1.5" />
+    <circle cx="-85" cy="15" r="5" fill="url(#nodeGlow)" stroke="#ffffff" stroke-width="1.5" />
+    <circle cx="-25" cy="-60" r="4.5" fill="url(#nodeGlow)" stroke="#ffffff" stroke-width="1.5" />
+    <circle cx="70" cy="-10" r="4.5" fill="url(#nodeGlow)" stroke="#ffffff" stroke-width="1.5" />
+  </g>
+
+  <!-- Typography: LOCALWEB.AI.STUDIO -->
+  <text x="500" y="490" 
+        text-anchor="middle" 
+        font-family="'Montserrat', 'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+        font-size="48" 
+        font-weight="800" 
+        letter-spacing="4.5" 
+        fill="#0b2348">LOCALWEB.AI.STUDIO</text>
+</svg>
